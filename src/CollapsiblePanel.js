@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 
 export default function CollapsiblePanel({labelLeft, labelRight, children, onOpen, onClose, isLoading, size='xl'}) {
   const [isOpen, setIsOpen] = useState(false);
